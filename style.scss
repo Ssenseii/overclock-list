@@ -6,6 +6,9 @@ html {
   font-size: 100%;
   font-family: 'Rubik', sans-serif;
   scroll-behavior: smooth;
+
+  background-color: #292b38;
+  color: #fff;
 }
 
 *,
@@ -83,8 +86,8 @@ main {
       padding-block: 1rem;
       text-align: center;
       margin-block: 2rem;
-      border-top: 1px solid #222;
-      border-bottom: 1px solid #222;
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #fff;
     }
 
     &:nth-child(1) {
@@ -114,6 +117,9 @@ main {
     h2 {
       margin-bottom: 2rem;
       font-weight: 700;
+      font-size: 34px;
+      color: #aaa;
+      border-bottom: 1px solid #aaa;
     }
 
     &__gun {
@@ -127,15 +133,32 @@ main {
       }
 
       &-green {
-        color: #2e7d32;
+        // color: #2e7d32;
+        color: #3bc45b;
+
+        input {
+          accent-color: #3bc45b;
+          ;
+        }
+
       }
 
       &-yellow {
         color: #f9a825;
+
+        input {
+          accent-color: #f9a825;
+          ;
+        }
       }
 
       &-red {
-        color: #c62828;
+        color: #ee2e2e;
+
+        input {
+          accent-color: #ee2e2e;
+          ;
+        }
       }
 
       &-green,
@@ -148,6 +171,16 @@ main {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+
+        input {
+          width: 1.5rem;
+          height: 1.5rem;
+
+          &:hover {
+            cursor: pointer;
+            box-shadow: 1px 2px 5px 0px rgba(255, 255, 255, 0.35);
+          }
+        }
       }
     }
   }
