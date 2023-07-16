@@ -28,4 +28,4 @@ for (let i = 1; i <= boxes; i++) {
   }
 }
 
-window.addEventListener('change', save());
+window.addEventListener('change', save);
