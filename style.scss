@@ -126,7 +126,7 @@ main {
 
       margin-bottom: 2rem;
 
-      height: 25rem;
+      height: 24rem;
 
       &-name {
         font-weight: 500;
@@ -206,6 +206,7 @@ main {
       }
 
       &__gun {
+        height: 20rem;
         &-name {
           margin-left: 2rem;
         }
